@@ -27,13 +27,19 @@ button {
     
     font-family: 'bilo', sans-serif;
     font-size: 18px ;
-    text-align: right;
 }
 
-
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
 footer {
     background-color: #15396B;
     color: white;
     text-align: center;
+    font-family: 'bilo', sans-serif;
+    padding: 1px 1px 1px 1px;
 }
