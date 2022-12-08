@@ -6,60 +6,54 @@ body {
   background-color: #BFD6F7;
 }
 
-header {
+  header {
     background-color: #15396B;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 0px 10px 0px;
     color: white;
+}
+
+h1 {
+  font-family: 'Meta Serif Pro Bold'; 
+    font-size: 60px;
     text-align: center;
-    font-family: 'Meta Serif Pro Bold'; 
-  }
-
-  .custom-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: flex-start;
 }
 
-.custom-buttons:hover {
-      background-color:#15396B;
-      color: white;
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-button:active {
-  background-color: #15396B;
+.push {
+    margin-right: auto;
 }
 
 button {
-    background-color:  #BFD6F7;
-    padding: 10px;
-    margin: 10px; 
-    
     font-family: 'bilo', sans-serif;
-    font-size: 18px ;
-    text-align: center;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-  }
+    padding: 8px;
+    margin: 0px 3px;
+    border: 2px solid #B797D2;
+    border-radius: 10px;
+    background-color: #BFD6F7;
+}
 
+button:hover {
+  background-color: #B797D2;
+  color: white;
+}
 
+button:active {
+  background-color: #BFD6F7;
+  box-shadow: 0 2px #15396B;
+  transform: translateY(4px);
+}
 
 h1 {
     letter-spacing: 1px;
     font-size: 48px ;
     text-align: left;
 }
-
-
-footer {
-    background-color: #15396B;
-    color: white;
-    text-align: center;
-    font-family: 'bilo', sans-serif;
-    padding: 1px 1px 1px 1px;
-}
-
-
 
 /* Slider */
 
@@ -118,3 +112,15 @@ footer {
     align-items: center;
     font-size: 100px;
   }
+
+
+
+/* footer */
+
+footer {
+  background-color: #15396B;
+  color: white;
+  font-family: 'bilo', 'sans-serif';
+  text-align: center;
+  padding: 1px;
+}
