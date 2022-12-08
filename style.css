@@ -1,18 +1,31 @@
-/* Global styles */
-
-body {
+main {
 background-color: #BFD6F7;
 }
 
+body {
+  background-color: #BFD6F7;
+}
 
 header {
     background-color: #15396B;
-    padding: 5px 40px 40px 10px;
+    padding: 1px 1px 1px 1px;
     color: white;
     text-align: center;
-    font-family: 'Meta Serif Pro Bold';
+    font-family: 'Meta Serif Pro Bold'; 
+  }
 
-}
+      .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      float: right;
+  }
+
+  .button:hover {
+    background-color: #15396B;
+    color: white;
+  }
 
 h1 {
     letter-spacing: 1px;
@@ -22,18 +35,15 @@ h1 {
 
 button {
     background-color:  #BFD6F7;
-    padding: 12px;
-    margin: 8px; 
+    padding: 10px;
+    margin: 10px; 
     
     font-family: 'bilo', sans-serif;
     font-size: 18px ;
-}
+    text-align: center;
+    border-radius: 12px;
+    transition-duration: 0.4s;
 
-.container-navigation {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 footer {
@@ -50,7 +60,7 @@ footer {
 
 
 .button-one-section {
-    background-color: #15396B;
+    background-color: #B797D2;
     padding: 40px 50px;
     display: flex;
     justify-content: center;
@@ -62,7 +72,7 @@ footer {
   }
   
   .slider {
-    width: 800px;
+    width: 1500px;
     text-align: center;
     overflow: hidden;
   }
@@ -88,14 +98,13 @@ footer {
   } 
 
   .slides > div {
-    border: 4px solid black;
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 600px;
-    height: 400px;
+    width: 410px;
+    height: 410px;
     margin-right: 50px;
     border-radius: 10px;
-    background: #eee;
+    background: white;
     transform-origin: center center;
     transform: scale(1);
     position: relative;
@@ -104,8 +113,4 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-  }
-
-  .slides > div:target {
-  /*   transform: scale(0.8); */
   }
