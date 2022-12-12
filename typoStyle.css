@@ -1,0 +1,37 @@
+#container {
+    display: grid;
+    align-items: center;
+    columns: 2;
+    border: 5px solid#15396B;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+h4 {
+    margin-left: 10px;
+    font-size: 27px;
+}
+
+#container p {
+    margin-left: 5px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.p1 {
+    font-size: 20px ;
+    margin-left: 10px;
+}

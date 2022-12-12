@@ -26,7 +26,7 @@ h2 {
 h3 {
   font-size: 30px;
   font-family:'Meta Serif Pro Bold';
-  text-align: right;
+  text-align: center;
   margin-right: 200px;
 }
 
@@ -40,7 +40,9 @@ p {
 text-align: center;
 }
 
-
+.p1 {
+  text-align: left;
+}
 
 .container-navigation {
     display: flex;
@@ -170,6 +172,9 @@ button:active {
   margin-bottom: 30px;
   grid-template-columns: auto auto auto;
 }
+
+
+
 
 /* footer */
 
