@@ -203,6 +203,26 @@ button:active {
   font-family: 'bilo', sans-serif;
 }
 
+/* UX PAGE */
+
+#containerUX {
+  display: flexbox;
+  align-content: center;
+  columns: 3;
+  border: 5px solid#15396B;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.imgUX {
+  margin: 20px 20px 20px 20px;
+  align-content: center;
+  align-items: center;
+}
+
+
 /* footer */
 
 footer {
