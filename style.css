@@ -50,9 +50,6 @@ p {
   justify-content: flex-start;
 }
 
-.push {
-  margin-right: auto;
-}
 
 button {
   font-family: 'bilo', sans-serif;
@@ -77,12 +74,18 @@ button:active {
 
 /* Slider */
 
-.button-one-section {
+.typographic-systems-container {
+  width:100%;
   background-color: #B797D2;
-  padding: 40px 50px;
+}
+
+.section1 {
+  background-color: #B797D2;
+  padding: 30px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 * {
@@ -90,7 +93,7 @@ button:active {
 }
 
 .slider {
-  width: 1500px;
+  width: 100%;
   text-align: center;
   overflow: hidden;
 }
@@ -206,7 +209,7 @@ button:active {
 /* UX PAGE */
 
 #containerUX {
-  display: flexbox;
+  display: flex;
   align-content: center;
   columns: 3;
   border: 5px solid#15396B;
@@ -222,6 +225,12 @@ button:active {
   align-items: center;
 }
 
+.pRef {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
 
 /* footer */
 
